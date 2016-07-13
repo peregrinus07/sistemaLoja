@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Jul 13 12:39:10 GMT-03:00 2016
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\tibe\\Desktop\\projetos\\sistemaLojaOnLine\\sistemaLojaOnLine\\WebContent\\WEB-INF\\lib\\libs-spring\\spring-web-4.3.1.RELEASE-sources.jar=WEB-INF/lib/libs-spring/spring-web-4.3.1.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\tibe\\Desktop\\projetos\\sistemaLojaOnLine\\sistemaLojaOnLine\\WebContent\\WEB-INF\\lib\\libs-spring\\spring-web-4.3.1.RELEASE.jar=WEB-INF/lib/libs-spring/spring-web-4.3.1.RELEASE.jar

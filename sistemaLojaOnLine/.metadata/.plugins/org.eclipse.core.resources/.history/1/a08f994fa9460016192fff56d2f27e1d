@@ -1,0 +1,21 @@
+package empresa;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table (name ="tb_empresa")
+public class Empresa {
+
+	
+	@Column (name ="nome_empresa", length = 45)
+	private String nomeDaEmpresa;
+	
+	@Column (name ="descricao_empresa", length = 200)
+	private String descricao; 
+	
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+127.0.0.1 - - [13/Jul/2016:11:45:33 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [13/Jul/2016:11:45:34 -0300] "GET /sistemaLojaOnLine/WEB-INF/classes/empresa/Empresa.java HTTP/1.1" 404 1102
+0:0:0:0:0:0:0:1 - - [13/Jul/2016:11:45:46 -0300] "GET /sistemaLojaOnLine/LojaOnLine/index.xhtml HTTP/1.1" 404 1074
+127.0.0.1 - - [13/Jul/2016:11:52:52 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [13/Jul/2016:11:52:52 -0300] "GET /sistemaLojaOnLine/LojaOnLine/index.xhtml HTTP/1.1" 404 1074
+127.0.0.1 - - [13/Jul/2016:11:59:23 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [13/Jul/2016:11:59:24 -0300] "GET /sistemaLojaOnLine/LojaOnLine/index.xhtml HTTP/1.1" 404 1074
+127.0.0.1 - - [13/Jul/2016:12:39:43 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [13/Jul/2016:12:40:03 -0300] "GET /sistemaLojaOnLine/ HTTP/1.1" 200 639
+0:0:0:0:0:0:0:1 - - [13/Jul/2016:12:40:03 -0300] "GET /favicon.ico HTTP/1.1" 404 1016

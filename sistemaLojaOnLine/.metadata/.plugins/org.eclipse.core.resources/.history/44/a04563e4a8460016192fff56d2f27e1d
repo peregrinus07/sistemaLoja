@@ -1,0 +1,12 @@
+package empresa;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Empresa {
+
+	
+	
+	
+	
+}

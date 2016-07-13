@@ -1,0 +1,43 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pessoa;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/**
+ *
+ * @author tibe
+ */
+@Entity
+@Table(name="tb_funcionarios")
+public class Funcionario extends  Pessoa{
+    
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_funcionario")
+    private int  idFuncionario;
+
+    /**
+     * @return the idFuncionario
+     */
+    public int getIdFuncionario() {
+        return idFuncionario;
+    }
+
+    /**
+     * @param idFuncionario the idFuncionario to set
+     */
+    public void setIdFuncionario(int idFuncionario) {
+        this.idFuncionario = idFuncionario;
+    }
+    
+    
+}

@@ -1,0 +1,35 @@
+package empresa;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+/**
+*
+* @author tiberio cezar
+*/
+
+
+public class EmpresaDAO {
+ 
+	private EntityManagerFactory ef; 
+	private EntityManager e;
+	private List<>
+	
+	
+    public EmpresaDAO () {
+    	
+    	
+    	ef = Persistence.createEntityManagerFactory("sistemaLoja");
+    	
+    	e = ef.createEntityManager();
+    	
+    }	
+	
+    
+    
+    
+    
+    
+	
+}

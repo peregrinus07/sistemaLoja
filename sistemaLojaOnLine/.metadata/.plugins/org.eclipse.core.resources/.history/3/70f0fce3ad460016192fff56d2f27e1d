@@ -1,0 +1,53 @@
+package empresa;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+/**
+*
+* @author tiberio cezar
+*/
+
+
+public class EmpresaDAO {
+ 
+	private EntityManagerFactory ef; 
+	private EntityManager e;
+	private List<Empresa> listaEmpresas;
+
+	
+	
+    public EmpresaDAO () {
+    	
+    	
+    	ef = Persistence.createEntityManagerFactory("sistemaLoja");
+    	
+    	e = ef.createEntityManager();
+    	
+    }	
+	
+    
+    public void listar() {
+    	
+    	  
+    	
+    	
+    }
+
+
+	public List<Empresa> getListaEmpresas() {
+		return listaEmpresas;
+	}
+
+
+	public void setListaEmpresas(List<Empresa> listaEmpresas) {
+		this.listaEmpresas = listaEmpresas;
+	}
+    
+    
+    
+	
+}

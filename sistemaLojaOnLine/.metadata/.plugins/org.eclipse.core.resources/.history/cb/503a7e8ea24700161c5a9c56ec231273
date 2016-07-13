@@ -1,0 +1,41 @@
+package empresa;
+
+import java.util.List;
+
+ 
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+/**
+*
+* @author tiberio cezar
+*/
+
+@ManagedBean (name ="EmpresaDAO")
+@ViewScoped
+public class EmpresaDAO {
+  
+ 
+	private EntityManagerFactory ef;
+	private EntityManager e;
+	
+	
+	
+	
+	public void criarTabelasDb() {
+		
+	ef = Persistence.createEntityManagerFactory("sistemaLoja");	 
+		
+	e = ef.createEntityManager();	
+		
+		
+	}
+	
+	
+	 	
+	
+	
+}
