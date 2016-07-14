@@ -20,5 +20,6 @@
 			<attribute name="owner.project.facets" value="jst.jsf"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/postgresql-9.4.1208.jre6 (1).jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
