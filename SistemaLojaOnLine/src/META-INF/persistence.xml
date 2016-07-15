@@ -7,6 +7,9 @@
         </provider>
 	  
 		<class>empresa.Empresa</class>
+		<class>pessoa.Funcionario</class>
+		<class>pessoa.Cliente</class>
+		<class>pessoa.Pessoa</class>
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
 		<properties>
 		<property name="eclipselink.ddl-generation" value="create-tables"/>
@@ -17,9 +20,7 @@
 			<property name="javax.persistence.jdbc.user" value="postgres"/>
 			<property name="javax.persistence.jdbc.password" value="tibe"/>
 			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-			 
-			
-			
+		 
 		</properties>
 	</persistence-unit>
 </persistence>
