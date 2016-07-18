@@ -33,40 +33,13 @@ public class Funcionario extends  Pessoa{
     private String senha;
     
     
-    @Column(name="lastAccess", unique=true)
+    @Column(name="ultimo_acesso", unique=true)
     @Temporal(TemporalType.DATE)
     private Date ultimoAcesso;
 
-
-	public int getIdFuncionario() {
-		return idFuncionario;
-	}
-
-
-	public void setIdFuncionario(int idFuncionario) {
-		this.idFuncionario = idFuncionario;
-	}
-
-
-	public String getSenha() {
-		return senha;
-	}
-
-
-	public void setSenha(String senha) {
-		this.senha = senha;
-	}
-
-
-	public Date getUltimoAcesso() {
-		return ultimoAcesso;
-	}
-
-
-	public void setUltimoAcesso(Date ultimoAcesso) {
-		this.ultimoAcesso = ultimoAcesso;
-	}
-    
+    @Column(name="data_de_cadastro", unique=true)
+    @Temporal(TemporalType.DATE)
+    private Date dataDeCadastro;
     
     
     
